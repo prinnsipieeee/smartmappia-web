@@ -38,7 +38,7 @@ const Hero = () => {
                 <div className="w-full h-100 md:h-137.5 bg-brand-dark/40 border border-white/5 rounded-3xl relative group overflow-hidden shadow-2xl">
   
                     <video 
-                        src="./src/assets/smartmappia-video.mp4" 
+                        src="/smartmappia-video.mp4" 
                         autoPlay 
                         loop 
                         muted 

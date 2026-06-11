@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="col-span-1 md:col-span-2">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-10 h-10 bg-transparent flex items-center justify-center overflow-hidden">
-              <img src="./src/assets/logo-mappia2.png" alt="Logo" className="w-full h-full object-contain" />
+              <img src="/logo-mappia2.png" alt="Logo" className="w-full h-full object-contain" />
             </div>
             <span className="text-xl font-black text-white">Smart <span className="text-brand-orange">Mappia</span></span>
           </div>

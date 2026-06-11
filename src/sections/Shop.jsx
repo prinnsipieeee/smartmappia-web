@@ -24,7 +24,7 @@ const Shop = () => {
                     className="relative w-full h-50px rounded-3xl overflow-hidden group border border-white/10 shadow-2xl"
                 >
                     <img 
-                    src="./src/assets/sony.png" 
+                    src="/sony.png" 
                     alt="SmartMappia E-Commerce" 
                     className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"/>
 
