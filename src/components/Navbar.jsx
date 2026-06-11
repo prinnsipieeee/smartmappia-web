@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="flex items-center gap-3">
           <div className="w-12 h-12 bg-transparent flex items-center justify-center overflow-hidden">
             <img 
-              src="/logo-mappia2.png" 
+              src="/mappia-new-logo.png"
               alt="SmartMappia Logo" 
               className="w-full h-full object-contain"
             />
