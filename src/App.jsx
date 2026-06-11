@@ -8,6 +8,7 @@ import PickDrop from './sections/PickDrop';
 import HowItWorks from './sections/HowItWorks';
 import FAQ from './sections/FAQ';
 import Footer from "./sections/Footer";
+import AboutUs from './sections/AboutUs';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Restaurants />
         <Shop />
         <PickDrop />
+        <AboutUs />
         <HowItWorks />
         <FAQ />
         <Footer />

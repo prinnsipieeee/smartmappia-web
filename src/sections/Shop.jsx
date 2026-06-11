@@ -75,8 +75,8 @@ const Shop = () => {
                     </div>
 
                     {/* Call to Action Button */}
-                    <button className="mt-10 bg-white hover:bg-gray-200 text-brand-black font-black px-8 py-4 rounded-xl transition-all transform hover:scale-[1.02] active:scale-95 shadow-xl flex items-center gap-2 cursor-pointer">
-                        Explore the Shop <span className="text-xl">➔</span>
+                    <button className="mt-10 bg-orange-500 text-brand-white font-black px-8 py-4 rounded-xl transition-all transform hover:scale-[1.02] active:scale-95 shadow-xl flex items-center gap-2 cursor-pointer">
+                        Explore the Shop Via App <span className="text-xl"></span>
                     </button>
                 </motion.div>
             </div>

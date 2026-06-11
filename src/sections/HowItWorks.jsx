@@ -97,7 +97,44 @@ const HowItWorks = () => {
             ))}
           </AnimatePresence>
         </div>
+            {/* VIDEO AT DIAGRAM SECTION */}
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mt-16 grid md:grid-cols-2 gap-8"
+        >
+          {/* Instruction Text Container */}
+          <div className="bg-brand-dark/30 border border-white/5 rounded-3xl p-8 flex flex-col justify-center">
+            <h4 className="text-white font-black text-2xl mb-6">Quick Start Guide</h4>
+            <div className="space-y-6">
+              {[
+                { title: "Verification", text: "Ensure your mobile number is verified to receive OTP codes instantly." },
+                { title: "Permissions", text: "Grant location access for real-time tracking and delivery accuracy." },
+                { title: "Profile Setup", text: "Complete your profile details to unlock all platform features seamlessly." }
+              ].map((instr, idx) => (
+                <div key={idx} className="flex gap-4">
+                  <div className="w-8 h-8 rounded-full bg-brand-orange/20 flex items-center justify-center text-brand-orange font-bold flex-shrink-0">
+                    {idx + 1}
+                  </div>
+                  <div>
+                    <h5 className="text-white font-bold">{instr.title}</h5>
+                    <p className="text-brand-grey text-sm">{instr.text}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+  </div>
 
+          {/* Diagram / Instruction Layout */}
+          <div className="bg-brand-dark/30 border border-white/5 rounded-3xl p-8 flex flex-col justify-center">
+            <h4 className="text-white font-black mb-4">Platform Workflow Diagram</h4>
+            <div className="bg-white/5 rounded-2xl p-6 border border-white/5">
+              {/* Dito mo ilagay ang image diagram mo */}
+              <img src="/flow.png" alt="How to Log In Diagram" className="w-full h-auto max-h-[500px] object-contain rounded-lg" />
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

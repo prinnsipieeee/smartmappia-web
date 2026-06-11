@@ -31,10 +31,11 @@ const Footer = () => {
 
         {/* Contact Column */}
         <div>
-          <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-xs">Support</h4>
+          <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-xs">Contact Us</h4>
           <ul className="space-y-4 text-brand-grey text-sm">
-            <li>support@smartmappia.sa</li>
-            <li>Riyadh, Saudi Arabia</li>
+            <li>inquire@smartmappia.com</li>
+            <li>Business Gate, Riyadh Saudi Arabia</li>
+            <li>056 176 6883</li>
             <li className="flex gap-4 mt-6 text-xl">
               <a href="#" className="hover:text-brand-orange transition-colors">📱</a>
               <a href="#" className="hover:text-brand-orange transition-colors">📸</a>
@@ -44,13 +45,16 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright */}
-      <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/5 text-center md:text-left">
-        <p className="text-brand-grey text-xs">
-          © 2026 SmartMappia. All rights reserved. Built for seamless urban living.
+
+      <div className="mt-8 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
+        {/* Copyright */}
+        <p className="text-brand-grey text-sm">
+          &copy; {new Date().getFullYear()} SmartMappia. All rights reserved.
         </p>
       </div>
     </footer>
+
+    
   );
 };
 

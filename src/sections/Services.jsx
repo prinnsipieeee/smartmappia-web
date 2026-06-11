@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion'; 
+import LogoGrid from './Logo';
 
 const Services = () => {
   const servicesData = [
@@ -109,6 +110,7 @@ const Services = () => {
         </div>
 
       </div>
+      <LogoGrid />
     </section>
   );
 };
