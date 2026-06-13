@@ -5,8 +5,6 @@ const AboutUs = () => {
   return (
     <section id="about" className="py-24 px-8 md:px-20 bg-brand-black text-white">
         <div className="max-w-6xl mx-auto">
-    
-            {/* ITO YUNG HEADER NA DADAGDAG NATIN */}
             <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
